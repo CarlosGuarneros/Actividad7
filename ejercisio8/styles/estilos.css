@@ -1,0 +1,126 @@
+h1,h2,h3,h4,nav,footer{
+  font-family: "Trebuchet MS","Lucida Grande",Tahoma,sans-serif;
+}
+
+body{
+  font-family: Georgia,Cambria, "Times New Roman", serif;
+  font-size: 100%;
+  background-image: url(../images/background-pattern.png);
+}
+
+article{
+  /*  background-color: white;*/
+  margin-top: 1em;
+  margin-right: 4em;
+  margin-bottom: 1em;
+  margin-left: 4em;
+  padding: 0.5em;
+}
+
+nav{
+  font-size: 1rem;
+}
+
+nav, h1, h3{
+  background-image: url(../images/header-background.png);
+}
+
+h1 img{
+  position: relative;
+  left: 65px;
+}
+
+h3{
+  font-size: 0.85rem;
+  color: white;
+  padding: 0.25rem;
+}
+ul li{
+  list-style: none;
+  display: inline;
+}
+.l1{
+  position: relative;
+  left: 1115px;
+}
+
+.unobarra{
+  background-color: #273649;
+  padding: 0.4em;
+}
+
+.dosbarra{
+  background-color: #dae0e9;
+  padding: 0.4em;
+}
+
+nav a{
+  padding: 0.25em;
+  position: relative;
+  left: 65px;
+}
+
+a:link{
+  font-weight: bold;
+  color: #479fd4;
+}
+
+a:visited{
+  color: rgb(187,120,255);
+}
+
+a:hover{
+  background-color: #ff97e5;
+}
+
+article div, img h2{
+  background-color: white;
+  margin-bottom: 1em;
+}
+.j1{
+  position: relative;
+  left: 600px;
+}
+
+em{
+  color: gray;
+}
+section p {
+  background-color: white;
+  border: black 2px solid;
+  padding: 0.4em;
+}
+
+section div ul {
+  font-size: 0.70em;
+  padding: 0.4em;
+  background-color: #273649;
+}
+
+.Edit{
+  border: solid 1px #999999;
+  background-color: #dbdfed;
+  border-radius: 5px;
+  padding: 0.15em;
+
+}
+
+.Flag{
+  border: solid 1px #999999;
+  background-color: #dbdfed;
+  border-radius: 5px;
+  padding: 0.15em;
+}
+
+#Grafica{
+  background-color: white;
+  border: black 2px solid;
+
+}
+
+footer{
+  font-size: 0.8em;
+  color: white;
+  background-color: #273649;
+  padding: 0.4em;
+}
